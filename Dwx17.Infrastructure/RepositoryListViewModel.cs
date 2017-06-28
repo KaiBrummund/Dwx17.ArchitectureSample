@@ -15,7 +15,7 @@ namespace Dwx17.Infrastructure
         private readonly IGitHubClient _client;
         private readonly INotificationService _notificationService;
 
-        private List<GitHubRepository> _repositories;
+        private List<GitHubRepository> _repositories = new List<GitHubRepository>();
         private bool _isDataLoading;
 
         public RepositoryListViewModel(IGitHubClient client, INotificationService notificationService)
