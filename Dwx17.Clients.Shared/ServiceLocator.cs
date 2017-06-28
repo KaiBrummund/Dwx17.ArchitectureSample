@@ -8,6 +8,7 @@ using System.Text;
 #if __ANDROID__
 using Dwx17.Clients.AndroidApp;
 #elif __IOS__
+using Dwx17.Clients.IosApp;
 #elif WINDOWS_UWP
 using Dwx17.Clients.WindowsApp;
 #endif
