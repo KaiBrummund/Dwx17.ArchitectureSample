@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 
 #if __ANDROID__
+using Dwx17.Clients.AndroidApp;
 #elif __IOS__
 #elif WINDOWS_UWP
 using Dwx17.Clients.WindowsApp;

@@ -36,7 +36,7 @@ namespace Dwx17.Infrastructure
             set { SetProperty(ref _repositories, value); }
         }
 
-        public async Task RefrehAsync()
+        public async Task RefreshAsync()
         {
             if (IsDataLoading) return;
             IsDataLoading = true;

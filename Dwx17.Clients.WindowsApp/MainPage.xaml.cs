@@ -1,4 +1,5 @@
-﻿using Dwx17.Infrastructure;
+﻿using Dwx17.Clients.Shared;
+using Dwx17.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -29,7 +30,7 @@ namespace Dwx17.Clients.WindowsApp
         {
             this.InitializeComponent();
 
-            
+            ViewModel = ServiceLocator.Current.RepositoryListViewModel;
         }
     }
 }
